@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/chenmingjian.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/chenmingjian/chenmingjian.github.io/"/>
+  <updated>2020-05-18T10:31:52.495Z</updated>
+  <id>https://github.com/chenmingjian/chenmingjian.github.io/</id>
+  
+  <author>
+    <name>chen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/test/"/>
+    <id>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/test/</id>
+    <published>2020-05-18T10:31:52.000Z</published>
+    <updated>2020-05-18T10:31:52.495Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Multi-person Pose Estimation in the Wild</title>
+    <link href="https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person%20Pose%20Estimation%20in%20the%20Wild/"/>
+    <id>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person%20Pose%20Estimation%20in%20the%20Wild/</id>
+    <published>2020-05-18T09:32:08.183Z</published>
+    <updated>2020-05-18T10:53:27.849Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --><h1 id="multi-person-pose-estimation-in-the-wild"><a class="markdownIt-Anchor" href="#multi-person-pose-estimation-in-the-wild"></a> Multi-person Pose Estimation in the Wild</h1><h2 id="贡献"><a class="markdownIt-Anchor" href="#贡献"></a> 贡献</h2><ul><li>heatmap+offsets</li><li>keypoint-based NMS</li><li>keypoint-based confidence score estimation, instead of box-level scoring.</li></ul><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;multi-person-pose-estimation-in-the-wild&quot;&gt;&lt;a class=&quot;markdownIt-Anch
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
