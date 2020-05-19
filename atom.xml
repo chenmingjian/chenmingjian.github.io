@@ -6,7 +6,7 @@
   <link href="/chenmingjian.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/chenmingjian/chenmingjian.github.io/"/>
-  <updated>2020-05-18T10:31:52.495Z</updated>
+  <updated>2020-05-19T00:52:20.450Z</updated>
   <id>https://github.com/chenmingjian/chenmingjian.github.io/</id>
   
   <author>
@@ -17,41 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/test/"/>
-    <id>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/test/</id>
-    <published>2020-05-18T10:31:52.000Z</published>
-    <updated>2020-05-18T10:31:52.495Z</updated>
-    
-    <content type="html"><![CDATA[<!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --><!-- rebuild by neat -->]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --&gt;&lt;!-- rebuild by neat --&gt;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Multi-person Pose Estimation in the Wild</title>
-    <link href="https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person%20Pose%20Estimation%20in%20the%20Wild/"/>
-    <id>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person%20Pose%20Estimation%20in%20the%20Wild/</id>
+    <title>Multi-person-Pose-Estimation-in-the-Wild</title>
+    <link href="https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person-Pose-Estimation-in-the-Wild/"/>
+    <id>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person-Pose-Estimation-in-the-Wild/</id>
     <published>2020-05-18T09:32:08.183Z</published>
-    <updated>2020-05-18T10:53:27.849Z</updated>
+    <updated>2020-05-19T00:52:20.450Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --><h1 id="multi-person-pose-estimation-in-the-wild"><a class="markdownIt-Anchor" href="#multi-person-pose-estimation-in-the-wild"></a> Multi-person Pose Estimation in the Wild</h1><h2 id="贡献"><a class="markdownIt-Anchor" href="#贡献"></a> 贡献</h2><ul><li>heatmap+offsets</li><li>keypoint-based NMS</li><li>keypoint-based confidence score estimation, instead of box-level scoring.</li></ul><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Tue May 19 2020 08:53:27 GMT+0800 (GMT+08:00) --><h1 id="multi-person-pose-estimation-in-the-wild"><a class="markdownIt-Anchor" href="#multi-person-pose-estimation-in-the-wild"></a> Multi-person Pose Estimation in the Wild</h1><h2 id="思路"><a class="markdownIt-Anchor" href="#思路"></a> 思路</h2><h3 id="贡献"><a class="markdownIt-Anchor" href="#贡献"></a> 贡献</h3><ul><li>heatmap+offsets</li><li>keypoint-based NMS</li><li>keypoint-based confidence score estimation, instead of box-level scoring.</li></ul><h3 id="解决了什么问题"><a class="markdownIt-Anchor" href="#解决了什么问题"></a> 解决了什么问题？</h3><h3 id="还存在什么问题"><a class="markdownIt-Anchor" href="#还存在什么问题"></a> 还存在什么问题？</h3><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Mon May 18 2020 20:43:43 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;multi-person-pose-estimation-in-the-wild&quot;&gt;&lt;a class=&quot;markdownIt-Anch
+        &lt;!-- build time:Tue May 19 2020 08:53:27 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;multi-person-pose-estimation-in-the-wild&quot;&gt;&lt;a class=&quot;markdownIt-Anch
       
     
     </summary>
