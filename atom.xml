@@ -6,7 +6,7 @@
   <link href="/chenmingjian.github.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/chenmingjian/chenmingjian.github.io/"/>
-  <updated>2020-05-19T03:27:11.307Z</updated>
+  <updated>2020-05-23T01:27:10.237Z</updated>
   <id>https://github.com/chenmingjian/chenmingjian.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person-Pose-Estimation-in-the-Wild/"/>
     <id>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person-Pose-Estimation-in-the-Wild/</id>
     <published>2020-05-18T09:32:08.183Z</published>
-    <updated>2020-05-19T03:27:11.307Z</updated>
+    <updated>2020-05-23T01:27:10.237Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Tue May 19 2020 11:27:29 GMT+0800 (GMT+08:00) --><p>​ECCV2017；google；heatmap+offset</p><h2 id="思路"><a class="markdownIt-Anchor" href="#思路"></a> 思路</h2><h3 id="贡献"><a class="markdownIt-Anchor" href="#贡献"></a> 贡献</h3><ul><li>heatmap+offsets<ul><li>两者结合与CVPR2020的<a href="https://arxiv.org/abs/1911.07524" target="_blank" rel="noopener"><em>The Devil</em></a>中提到的无偏估计方法相同，待后续对比。</li><li>分解为两个问题（二分类以及offset回归），那么两个问题需要的feature map的层次是否一致？</li></ul></li><li>keypoint-based NMS</li><li>keypoint-based confidence score estimation, instead of box-level scoring.</li></ul><h3 id="解决了什么问题"><a class="markdownIt-Anchor" href="#解决了什么问题"></a> 解决了什么问题？</h3><ul><li>反驳了一些论文觉得bottom-up方法精度更高的观点。<ul><li>在今天看来top-down均优于bottom-up方法<ul><li>子任务分工明确，单个任务更简单。</li><li>在一定意义上规避了多尺度问题。</li></ul></li></ul></li></ul><h3 id="还存在什么问题"><a class="markdownIt-Anchor" href="#还存在什么问题"></a> 还存在什么问题？</h3><p>​pass</p><h2 id="疑惑"><a class="markdownIt-Anchor" href="#疑惑"></a> 疑惑</h2><ul><li>3.1中使用atrous convolution如何生成更密集的feature map？</li><li>文中提到不使用回归坐标点的方法是因为无法处理在图片中多人的关键点</li></ul><h2 id="note"><a class="markdownIt-Anchor" href="#note"></a> note</h2><ol><li>COCO test-dev 0.649; COCO test 0.643。</li><li>目标检测部分，没有使用multi-scale evaluation。</li></ol><h2 id="todo"><a class="markdownIt-Anchor" href="#todo"></a> TODO</h2><ul><li>探究为什么top-down的结果要更好。</li><li>unpooling是可以做到unbias。</li><li></li></ul><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Sat May 23 2020 09:27:30 GMT+0800 (GMT+08:00) --><p>​ECCV2017；google；heatmap+offset</p><h2 id="思路"><a class="markdownIt-Anchor" href="#思路"></a> 思路</h2><h3 id="贡献"><a class="markdownIt-Anchor" href="#贡献"></a> 贡献</h3><ul><li>heatmap+offsets<ul><li>两者结合与CVPR2020的<a href="https://arxiv.org/abs/1911.07524" target="_blank" rel="noopener"><em>The Devil</em></a>中提到的无偏估计方法相同，待后续对比。</li><li>分解为两个问题（二分类以及offset回归），那么两个问题需要的feature map的层次是否一致？</li></ul></li><li>keypoint-based NMS</li><li>keypoint-based confidence score estimation, instead of box-level scoring.</li></ul><h3 id="解决了什么问题"><a class="markdownIt-Anchor" href="#解决了什么问题"></a> 解决了什么问题？</h3><ul><li>反驳了一些论文觉得bottom-up方法精度更高的观点。<ul><li>在今天看来top-down均优于bottom-up方法<ul><li>子任务分工明确，单个任务更简单。</li><li>在一定意义上规避了多尺度问题。</li></ul></li></ul></li></ul><h3 id="还存在什么问题"><a class="markdownIt-Anchor" href="#还存在什么问题"></a> 还存在什么问题？</h3><p>​pass</p><h2 id="疑惑"><a class="markdownIt-Anchor" href="#疑惑"></a> 疑惑</h2><ul><li>3.1中使用atrous convolution如何生成更密集的feature map？</li><li>文中提到不使用回归坐标点的方法是因为无法处理在图片中多人的关键点。</li><li>heatmap的loss函数中似乎没有使用负样本。</li></ul><h2 id="note"><a class="markdownIt-Anchor" href="#note"></a> note</h2><ol><li>COCO test-dev 0.649; COCO test 0.643。</li><li>目标检测部分，没有使用multi-scale evaluation。</li><li>loss函数中heatmap与offset的比例是4：1，是否可以学习？如果不能学习是否可以设置与上一步Loss的比例成反比，动态损失函数。</li></ol><h2 id="todo"><a class="markdownIt-Anchor" href="#todo"></a> TODO</h2><ul><li>探究为什么top-down的结果要更好。</li><li>unpooling是可以做到unbias。</li></ul><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Tue May 19 2020 11:27:29 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;​	ECCV2017；google；heatmap+offset&lt;/p&gt;&lt;h2 id=&quot;思路&quot;&gt;&lt;a class=&quot;markdownIt-Anc
+        &lt;!-- build time:Sat May 23 2020 09:27:30 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;​	ECCV2017；google；heatmap+offset&lt;/p&gt;&lt;h2 id=&quot;思路&quot;&gt;&lt;a class=&quot;markdownIt-Anc
       
     
     </summary>
