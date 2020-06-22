@@ -2,58 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/18/Multi-person-Pose-Estimation-in-the-Wild/</loc>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/2020/06/08/Combining-detection-and-tracking-for-human-pose-estimation-in-videos/</loc>
     
-    <lastmod>2020-05-23T01:27:10.237Z</lastmod>
+    <lastmod>2020-06-22T06:51:34.071Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/2020/05/23/EfficientPose/</loc>
+    
+    <lastmod>2020-05-23T07:36:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/2020/06/03/Multi-person-Pose-Estimation-in-the-Wild/</loc>
+    
+    <lastmod>2020-05-23T01:27:10.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/chenmingjian/chenmingjian.github.io/categories/index.html</loc>
     
-    <lastmod>2020-05-19T01:18:35.775Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/chenmingjian/chenmingjian.github.io/tags/index.html</loc>
-    
-    <lastmod>2020-05-18T10:00:03.058Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/chenmingjian/chenmingjian.github.io/repository/index.html</loc>
-    
-    <lastmod>2020-05-18T10:00:03.057Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/chenmingjian/chenmingjian.github.io/links/index.html</loc>
-    
-    <lastmod>2020-05-18T10:00:03.056Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/chenmingjian/chenmingjian.github.io/books/index.html</loc>
-    
-    <lastmod>2020-05-18T10:00:03.053Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/chenmingjian/chenmingjian.github.io/about/index.html</loc>
-    
-    <lastmod>2020-05-18T10:00:03.051Z</lastmod>
+    <lastmod>2020-05-19T01:18:35.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://github.com/chenmingjian/chenmingjian.github.io/404.html</loc>
     
-    <lastmod>2020-05-18T10:00:03.047Z</lastmod>
+    <lastmod>2020-05-18T10:00:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/about/index.html</loc>
+    
+    <lastmod>2020-05-18T10:00:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/books/index.html</loc>
+    
+    <lastmod>2020-05-18T10:00:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/links/index.html</loc>
+    
+    <lastmod>2020-05-18T10:00:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-05-18T10:00:03.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/chenmingjian/chenmingjian.github.io/repository/index.html</loc>
+    
+    <lastmod>2020-05-18T10:00:03.000Z</lastmod>
     
   </url>
   
